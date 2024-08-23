@@ -1,0 +1,19 @@
+quantitativos e estatística
+- cartões por lista
+- lead time por cartão
+- lead time total por lista
+- lead time total por quadro
+- listas concluídas
+- listas por quadro
+- cartões por quadro
+- cartões com checklist
+- cartões sem checklist
+- 
+
+quadro > listas > cartões
+
+1. inferir bases de dados
+- gerar nova base de dados
+2. tratar erros e valores nova base
+3. verificar dados em plotagens
+4. construir dashboard

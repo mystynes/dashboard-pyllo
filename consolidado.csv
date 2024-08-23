@@ -1,0 +1,1096 @@
+id_quadro,quadro,id_lista,lista,id_cartao,cartao,descricao,data_inicio,data_fim,lead_time,id_checklist,checklist,quant_itens
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,60ba272ec6e54e409a81ed98,Criar Tela de parâmetros,sem descricao,2023-05-05,2023-09-20,138,6129271015ac5939daf69eaf,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6157820274dcb50de624d37e,Registro do pedido de acordo com deságio no regime especial e atualização de cálculo / $$ / E,"Como Usuário do SIPAG 
+Eu quero registrar um pedido de deságio no regime especial para um ente público
+Para atualização de cálculo com incidência do percentual de deságio
+
+Regra de negócio: Deve ser inserido em outra fila de precatórios, precatório de acordo (não cronológico).
+Os valores de todas as rubricas devem ser abatidos em 40%, devido ao acordo.
+Os precatórios de acordo deverão permanecer também na ordem cronológica, até que haja a quitação dos valores.
+Os valores destinados ao pagamento de precatórios de acordo são decorrentes de conta judicial diferente da conta dos precatórios de ordem cronológica.
+
+‌
+
+- atentar para as regras do gprec pra que os sistemas fiquem consistentes. Existem 4 tipos de acordo no Gprec, desagio e um deles. O cadastro da RP no acordo sera no gprec ou no sip?? Como sera a integracao?
+- analisar possibilidade de parametrizacao visando reutilizar telas de precatorios e de liberacao de pagamento,  etc -> SIM
+- avaliar melhor forma de aplicar o desconto: persistir o valor com desconto ou usar outro campo e calcular na hora de exibir (vale a pena usar o campo vl_ajuste???) ->",2023-12-07,2023-12-07,1,64e88a7d1cd5ec84526a5109,observacoes,15
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6157821b4d61dc3f8e1dc45f,Gerar resumo de cálculo com deságio para juntada ao processo / $$ / E,"Como Usuário do SIPAG 
+Eu quero que o sistema gere um resumo dos cálculos
+Para juntada no processo e notificação das partes
+
+Regra de negócio: o usuário deverá anexar este resumo no PJe para elaborar a notificação. O SIPAG não fará comunicação direta com o PJe.",2023-09-06,2023-12-07,92,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,615782303468a42eb5ed3d74,Homologação do acordo e inclusão na planilha para pagamento / $$ / E,"Como Usuário do SIPAG 
+Eu quero registrar os precatórios que foram homologados na planilha
+Para realização de pagamento
+
+Regra de negócio: Poderá haver mais de um lote de acordo.
+Precatório não homologados em um acordo deverão ser retirados desse lote e poderão ser incluídos em outro lote de acordo.****",2023-12-07,2023-12-07,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,616ec5f82bf8cb51011fd267,Fazer resumo de valores na tela de pesquisa de precatórios,"DUVIDA: Quando for precatorio com N beneficiarios, estamos listando separadamente na tela N vezes. Devemos contar como 1 ou como N ??",2023-09-12,2023-09-20,8,616ec607278a0445812b9356,checklist,6
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,623489b13be66e624b82d736,Alterações tela de alvará - mostrar conta destino e novo filtro,sem descricao,2023-08-18,2023-09-20,33,623489c5f3c6f0474589cab0,checklist,2
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,632de9ba9a8f070108a20d3f,PJEKZ-32845 > PJEKZ-71081[Remessa] Baixa de processos em lote - pedidos iniciais,Aguardando versão alvo para encaminharmos para integração.,2024-03-05,2024-03-05,1,6347fe5987685b043936e652,checklist,4
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,6348439ffdae62041a815d25,PJEKZ-72376 [Remessa] Baixa de processos em lote - novos pedidos (PJEKZ-32845),sem descricao,2022-10-13,2024-03-05,509,635aaed9ac2b9a00ae6a69e8,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,63cfce4215cfcfee1d97f31a,Atualização na geração de aportes,sem descricao,2023-04-12,2023-12-07,239,63cfce479d6884bd65524409,checklist,9
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,640f360d9deaf8321ac7bf27,FPM Banco do Brasil - SIA,"Prezado Raphael,
+
+Conforme contato telefônico, segue em anexo o manual do BB SIA, para integração dos arquivos. Para automatizar o processo no seu ERP, será necessário criar uma rotina. Você consegue configurar a pasta de retorno para onde pretende enviar o arquivo. Desde que faça o download do aplicativo dentro do computador onde está hospedado o Servidor das pastas.
+
+Após a análise do manual, caso queira implementar, peço que nos retorne este e-mail com a solicitação, pois a agência precisará enviar ao TRT o termo de adesão para assinatura e a partir daí eu solicito as credenciais.
+
+Atenciosamente,
+
+Prezados,
+
+‌
+
+‌
+
+Referente a solicitação para habilitação de BB SIA:
+
+Nome: TRIBUNAL REGIONAL DO TRABALHO 5A REGIAO BA
+Inscrição: 2839639000190
+
+Convênios habilitados: 168;
+
+O manual atualizado da solução e o instalador do BB SIA Client encontram-se disponíveis em [https://gmtedi.bb.com.br](https://gmtedi.bb.com.br/ ""‌"") -> Documentação e Downloads.
+
+O cliente poderá optar por uma das versões ou utilizar em conjunto a versão BB SIA Client (permite automatização) ou BB SIA Web (versão manual), sendo que o convênio já está habilitado para ser transmitido e recebido via BB SIA.
+
+O acompanhamento do protocolo de transmissão dos arquivos deve ser efetuado pelo cliente no BB SIA Web (htttps://[gmtedi.bb.com.br](http://gmtedi.bb.com.br/ ""‌"")) - Consulta Protocolos.
+
+Login  :   BB\_TRT5\_ZETRA
+
+Senha provisória: 12345678a",2023-08-09,2023-09-20,42,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6414778f87e71d1d867c516d,Importação do precatório não atualiza os dados da pessoa,"o reimportar precatório importa somente o precatório mas não atualiza as pessoas
+
+aqui só temos o nome, CPF/CNPJ e tipo pessoa e por isso não atualizamos
+
+o certo era nem trazer esses dados kkkk",2023-09-11,2023-09-20,9,64f1e701a9135c105d114b96,checklist,1
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,647f3bf84dcffdfce08f1d87,Sprint revisão 2/9,"05/08 - Dos cartões planejados foram concluídos 2, 3 ficaram em andamento e 2 não foram iniciados. No início da sprint Ana estava de férias e Ruy está mais dedicado ao JTe.
+
+Sobre os testes, ainda não implementamos os testes por outras pessoas da equipe e também ainda não consegui trazer pessoa testadora, provavelmente ficará pra final de agosto.
+
+Sprint início: 5/8 - Objetivos: Liberar Versão 2.9.0 (Login KC nacional, Mensagens, melhorias nos Perfis, auditoria e painel de monitoramento)
+
+Próxima revisão: 19/8
+
+01/07 - Dos cartões planejados foram concluídos 8 e 4 ficaram em andamento.
+
+Sobre os testes, ainda não implementamos os testes por outras pessoas da equipe e também ainda não consegui trazer pessoa testadora, provavelmente ficará pra final de julho.
+
+Equipe reduzida em dois estagiários a partir de agora.
+
+Objetivo da próxima sprint: finalizar versão 2.9.0 com autenticação pelo keycloak nacional. Novo módulo de mensagens no ADM, melhorias na auditoria e também no controle de perfis.
+
+Próxima revisão 22/7.
+
+18/6 - Dos cartões planejados foram 10 concluídos e 8 ficaram em andamento ainda.
+
+Melhoria de processo para próxima sprint: testes! Um dev faz teste do que outro fez ou trazer pessoa testadora para a equipe.",1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,64e365eba41371f754a390d2,Ajuste nos perfis do SIP,"```
+-- Mapeamento do de-para dos perfis do pje para o SIP
+
+--select * from tb_perfil tp order by 1
+delete from tb_perfil tp where id_perfil > 5;
+-- ALTERAÇÃO DOS PERFIS EXISTENTES
+-- 1   ADMIN	Administrador OK
+-- 2   ADMINISTRADOR	Administrador OK
+-- 3   Servidor Precatório	servprec
+
+-- criação dos mapeamentos com os perfil do PJe
+
+-- magistrado sem OJ 1 grau
+/*select
+	'sq_tb_perfil' seqperfil, 'Magistrado' descricao, 'magistpublico' ds_perfil, tp.ds_identificador id_pje, null OJ, null OJC, true ativo
+       --,tp.id_papel, tp.ds_nome
+       from tb_papel tp
+       where tp.in_ativo = true and tp.id_papel in (1469)*/
+-- magistrado sem OJ/OJC 2 grau
+/*select 'INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval(''sq_tb_perfil''), ''Magistrado'', ''magistpublico'', '||''''||tp.ds_identificador||'''' ||', null, null, true);'
+       from tb_papel tp    where tp.in_ativo = true and tp.id_papel in (1469,5843)*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado', 'magistpublico', 'magistradorar', null, null, true);	
+ INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado', 'magistpublico', 'magistrado', null, null, true);
+
+	
+-- servidor sem OJ 1 GRAU
+/*select 'INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval(''sq_tb_perfil''), ''Diretor/Servidor'', ''servpublico'', '||''''||tp.ds_identificador||'''' ||', null, null, true);'
+       from tb_papel tp  where tp.in_ativo = true and tp.id_papel in (5197,5794,1118,1338)*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'dirSecretaria', null, null, true);
+-- 5	SERVIDOR	Diretor/Servidor
+UPDATE sipag.tb_perfil
+SET ds_descricao='Diretor/Servidor',
+	ds_perfil='servpublico',
+	ds_perfil_pje='ASSES'
+WHERE id_perfil=5;
+/*--delete from sipag.tb_perfil WHERE id_perfil=5;
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'Asses', null, null, true);*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'Secretario', null, null, true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'servidor', null, null, true);
+
+
+-- servidor sem OJ/OJC 2 grau
+/*select 'INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval(''sq_tb_perfil''), ''Diretor/Servidor'', ''servpublico'', '||''''||tp.ds_identificador||'''' ||', null, null, true);'
+       from tb_papel tp    where tp.in_ativo = true and tp.id_papel in (5197,5794,5842,5031,1118,5832,5840,5841,1338)*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'idSecretarioSessao', null, null, true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'servidorGabinete', null, null, true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'servidorSecret', null, null, true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'servidorar', null, null, true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor', 'servpublico', 'assessorar', null, null, true);
+
+-- magistrado com OJ/OJC
+/*select tp.ds_identificador, 'INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval(''sq_tb_perfil''), ''Magistrado Precatório'', ''MAGISTRADO'', '||''''|| ''||tp.ds_identificador||'''' ||', '
+		||toj.id_orgao_julgador||', '||tojcoj.id_orgao_julgador_colegiado||' , true);'
+       from tb_papel tp, tb_orgao_julgador toj, tb_org_julg_clgdo_org_julg tojcoj
+       where tp.in_ativo = true
+       and tp.id_papel in (1469,5843)
+	   and toj.id_orgao_julgador in (72,76)
+       and tojcoj.id_orgao_julgador = toj.id_orgao_julgador
+       and tojcoj.dt_inicial <= now()
+       and (tojcoj.dt_final >= now() or tojcoj.dt_final is null)
+       and toj.in_ativo = 'S' and toj.in_posto_avancado = 'N'  */	
+-- 4   Magistrado Precatório	magistprec
+UPDATE sipag.tb_perfil
+SET ds_descricao='Magistrado Precatório',
+	ds_perfil='magistrado',
+	ds_perfil_pje='MAGISTRADO'
+WHERE id_perfil=4;
+/*delete from sipag.tb_perfil WHERE id_perfil=4;
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado Precatório', 'MAGISTRADO', 'magistrado', 72, 13 , true);*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado Precatório', 'MAGISTRADO', 'magistradorar', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado Precatório', 'MAGISTRADO', 'magistrado', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Magistrado Precatório', 'MAGISTRADO', 'magistradorar', 76, 15 , true);
+
+
+-- servidor com OJ/OJC
+/*select  tp.ds_identificador, 'INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval(''sq_tb_perfil''), ''Diretor/Servidor Precatório'', ''assessor'', '||''''|| ''||tp.ds_identificador||'''' ||', '
+		||toj.id_orgao_julgador||', '||tojcoj.id_orgao_julgador_colegiado||' , true);'
+       from tb_papel tp, tb_orgao_julgador toj, tb_org_julg_clgdo_org_julg tojcoj
+       where tp.in_ativo = true
+       and tp.id_papel in (5197,5794,5842,5031,1118,5832,5840,5841,1338)
+       and toj.id_orgao_julgador in (72,76)
+       and tojcoj.id_orgao_julgador = toj.id_orgao_julgador
+       and tojcoj.dt_inicial <= now()
+       and (tojcoj.dt_final >= now() or tojcoj.dt_final is null)
+       and toj.in_ativo = 'S' and toj.in_posto_avancado = 'N' */
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'dirSecretaria', 72, 13 , true);
+UPDATE sipag.tb_perfil
+SET ds_descricao='Diretor/Servidor Precatório',
+	ds_perfil='assessor',
+	ds_perfil_pje='ASSES'
+WHERE id_perfil=3;
+/*delete from sipag.tb_perfil WHERE id_perfil=3;
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'Asses', 72, 13 , true);*/
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'idSecretarioSessao', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'Secretario', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidor', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorGabinete', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorSecret', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorar', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'assessorar', 72, 13 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'dirSecretaria', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'Asses', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'idSecretarioSessao', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'Secretario', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidor', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorGabinete', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorSecret', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'servidorar', 76, 15 , true);
+INSERT INTO sipag.tb_perfil (id_perfil, ds_descricao, ds_perfil, ds_perfil_pje,
+		id_orgao_julgador_pje, id_orgao_julgador_colegiado_pje, in_ativo)
+		VALUES(nextval('sq_tb_perfil'), 'Diretor/Servidor Precatório', 'assessor', 'assessorar', 76, 15 , true);
+
+-- carga da associação de perfil x recurso
+delete from tb_perfil_recurso;
+
+/* 'admin'
+1	Página Inicial	Home	/
+13	Gerenciamento dos Jobs	CARGA DE DADOS	/jobs
+15	Administração	ADMIN	/admin
+16	Admin - Relatórios de Auditoria	Auditoria	/admin/auditoria
+17	Admin - Perfis/Recursos do Usuário	Perfil	/admin/perfil
+20	Admin - Parametros do Sistema	Parametro	/admin/parametro*/
+INSERT INTO sipag.tb_perfil_recurso
+(id_perfil, id_recurso)
+select tp.id_perfil, tr.id_recurso
+from tb_perfil tp , tb_recurso tr
+where tp.ds_perfil = 'admin'
+and tr.id_recurso in (1,13,15,16,17,20);
+
+
+/* 'servpublico','magistpublico'
+1	Página Inicial	Home	/
+14	Relatório dos Pagamentos de Alvarás	Detalhe pagamento precatório	/publico/relatorios/pagamento-alvara */
+INSERT INTO sipag.tb_perfil_recurso
+(id_perfil, id_recurso)
+select tp.id_perfil, tr.id_recurso
+from tb_perfil tp , tb_recurso tr
+where tp.ds_perfil in ('servpublico','magistpublico')
+and tr.id_recurso in (1,14);
+
+
+/* 'assessor','magistrado'
+1	Página Inicial	Home	/
+2	Gerenciamento dos Entes Públicos	ENTE PÚBLICO	/ente-publico
+3	Gerenciamento dos Precatórios	PRECATÓRIOS	/relatorios/previsao-debito
+4	Importação de precatórios	Importar precatório	/precatorios/importar
+5	Gerenciamento dos Convênios	CONVÊNIO	/convenio
+6	Gerenciamento dos Aportes	Aportes	/pagamento/aportes
+7	Consulta dos Detalhes da Dívida 	Detalhes da Dívida	/pagamento/divida-detalhes
+8	Gerenciamento dos Depósitos	Depósitos	/pagamento/deposito
+9	Gerenciamento das Contas Judiciais	Contas Judiciais	/pagamento/contas
+10	Gerenciamento das Liberações de pagamentos - Contas	Liberação de pagamentos - Contas	/pagamento/liberacao
+11	Gerenciamento das Liberações	Gerenciar Liberações	/pagamento/gerenciar-liberacoes
+12	Gerenciamento dos Alvarás	Alvarás	/pagamento/alvaras
+13	Gerenciamento dos Jobs	CARGA DE DADOS	/jobs
+14	Relatório dos Pagamentos de Alvarás	Detalhe pagamento precatório	/publico/relatorios/pagamento-alvara */
+INSERT INTO sipag.tb_perfil_recurso
+(id_perfil, id_recurso)
+select tp.id_perfil, tr.id_recurso
+from tb_perfil tp , tb_recurso tr
+where tp.ds_perfil in ('assessor','magistrado')
+and tr.id_recurso in (1,2,3,4,5,6,7,8,9,10,11,12,13,14);
+```",2023-11-16,2023-12-07,21,654a40e59f0837efd14d25bb,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,64e5f618c3acec5a74f0d737,Erro ao registrar conta como principal,sem descricao,2023-08-23,2023-09-20,28,64e5f9ab7af228605f5d9d6a,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,64e8abdfa1f13416e6edbcf6,[ACORDODESAGIO] Tela de contas judiciais,sem descricao,2023-08-25,2023-12-07,104,64e8abe8db6a47579d951e8a,checklist,5
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,64f24dae7b79fe8375f4b6d0,Tela de ente público não ordena a lista dos FPM - ordenar do mais novo para o mais antigo,sem descricao,2023-09-06,2023-09-20,14,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,64f63931c4dc7879b4cefb15,Alterações validação FPM,sem descricao,2023-09-05,2023-09-20,15,64f6397f69ea0e8e41760ae0,checklist,4
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65030ff7d35d88f87291d84d,Gerar os demais tipos de alvarás do SIF p beneficiario e Uniao,"Precisamos realizar a integracao entre SIP x SIF nas APIs dos demais alvaras. São eles:
+
+- Alvara beneficiario para credito em conta  (AlvaraApi - AlvaraTransferenciaDto  )
+- Alvara beneficiario para saque ( AlvaraApi - AlvaraSaqueDto )
+- Alvara GPS ( AlvaraRecolhimentoApi - AlvaraRecolhimentoGPSDto )
+- Alvara GRU ( AlvaraRecolhimentoApi - AlvaraRecolhimentoGRUDto )
+- Alvara DARF ( AlvaraRecolhimentoApi - AlvaraRecolhimentoDARFDto )",2023-09-14,2023-12-07,84,65088c1dbc0bee41eff5c022,checklist,4
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6503243f2faff6a96423dd14,Ajustes 2 solução FPM,sem descricao,2023-09-14,2023-09-20,6,65032443436f0f2cc31936b6,checklist,6
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65085fbba83dbb027afd8be3,Automatizar Evolucao do Banco de Dados - dbmanager,Usar  DBManager ou alguma solucao de mercado ???,2023-09-19,2023-12-07,79,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65088da9754b2519c5d889df,Registrar ou Obter dados bancarios e do beneficiario,"A opção mais interessante e obter os dados do pje (pessoa fisica) via api PJE-Integracao.
+
+A ideia seria chamar um servico passando o cpf p obter o id e com esse id chamar o outro servico que retorna todos os dados da PF, incluindo os bancarios. Isso porque no integracao n achei uma api q retorne tudo passando apenas o cpf.
+
+GET
+[https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/pessoas/fisicas?cpf=02161997513&situacao=1](https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/pessoas/fisicas?cpf=02161997513&situacao=1 ""‌"")
+
+RETORNO:
+
+`{""pagina"":1,""tamanhoPagina"":20,""qtdPaginas"":1,""totalRegistros"":1,""resultado"":[{""id"":393126,""nome"":""ANGELO ANDRADE MOURA"",""cpf"":""021.619.975-13"",""situacao"":true}]}`
+
+GET
+[https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/pessoas/fisicas/393126](https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/pessoas/fisicas/393126 ""‌"")
+
+RETORNO:
+
+`{""id"":393126,""nome"":""ANGELO ANDRADE MOURA"",""cpf"":""021.619.975-13"",""situacao"":true,""login"":""02161997513"",""codigoSexo"":""M"",""sexo"":""Masculino"",""dataNascimento"":""1985-07-18"",""nomeGenitora"":""CLARICE ANDRADE MOURA"",""podeUsarCelularParaMensagem"":false,""situacaoCpfReceitaFederal"":{""id"":0,""descricao"":""REGULAR""},""contaBancariaPrincipal"":{""id"":47,""numeroConta"":3333,""numeroContaDv"":""3"",""contaPrincipal"":true,""ativo"":true,""idBanco"":64,""idAgenciaBancaria"":47,""agenciaNumero"":222,""agenciaDv"":""2""}}`
+
+‌
+
+Dados processo:
+
+[https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/id/393126](https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/id/393126/partes ""‌"")
+
+Partes Processo:
+
+[https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/id/393126/partes](https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/id/393126/partes ""‌"")
+
+‌
+
+Pelo numero:
+
+[https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/numero/0000085-45.2023.5.05.0121/completo](https://pje-homologacao.trt5.jus.br/pje-integracao-api/api/processos/numero/0000085-45.2023.5.05.0121/completo ""‌"")",2023-09-21,2023-12-07,77,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65088de22ae5c641816408dd,Tela de pagamento direto aos beneficiaros,"1. Processos que nao sao do 2 grau nao serao exibidos
+2. Processos que por algum motivo o Pje nao retorne dados ou dê erro na consulta irao aparecer desabilitados com mensagem de alerta
+3. Os alvaras poderao ser marcados como ""Pagamento manual"" nos casos emq e são feitos fora do SIP. Entretanto, só os alvaras de saque e de transferencia ao beneficiario poderao ter outros dados alterados (apenas os campos sacador1, sacador2 e representante processual). Os sacadores por padrao serão o proprio beneficiario e o primeiro advogado da lista do PJe. O representante vem selecionado o primeiro da lista
+4. Os alvaras de recolhimento virao preenchidos conforme informacoes passadas por Marcelo e nao serão editados
+
+Opcoes de liberacao com dados arrumados: 1602, 1959",2023-10-04,2023-12-07,64,6512d79fec8beca9d5956529,checklist,14
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,650af2ac43063ca374a1b1b5,Ajustes na tela de liberação,sem descricao,2023-10-25,2023-12-07,43,650c4b0b294e5ffecc803337,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,650c307747eb987f870a156e,Bug ao pagar RP multiplos beneficiarios contemplando apenas parte dos beneficiarios,sem descricao,2023-09-21,2023-09-21,0,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6526dae69a5ea1cc1c16edb5,Verificar duplicacao de convenio,Impedir que dois precatórios estejam em dois convênios independente do mesmo estar homologado ou não,2023-10-24,2023-12-07,44,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,652d489c744ceb7d343a7d3f,Mudar beneficiario para VIUVA RP 01755/2016,"34286	 JOAO FRANCISCO MOURA COSTA FILHO	F	01770462520	true	false	32482	0	2023-08-09 10:26:09.757	SISTEMA
+
+‌
+
+mudou para
+
+34286	MARIA VITORIA ALVAREZ MOURA COSTA	F	04904869591	true	false	44849	0	2023-08-09 10:26:09.757	SISTEMA",2023-10-16,2023-10-16,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,652e95756ac8384ceec935f1,Alterar o regime do município conforme informação do GPREC,sem descricao,2023-10-20,2023-12-07,48,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,652eee9676a139ab121a46ce,Ao homologar acordo com deságio a tela de convênio não abre - ver camaçari em homologação,sem descricao,2023-10-18,2023-12-07,50,652fe92bda37f682bbdb757a,bugs corrigidos,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6536793cde2aef137acde1de,Ajuste para corrigir local date - todos os módulos,sem descricao,2023-10-23,2023-12-07,45,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65396f19faf25b468306fda3,Registro do pedido de acordo por parcelamento,sem descricao,2023-11-13,2023-12-07,24,65396f1d9649c77a9520ec20,checklist,6
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,653970414a161466850f9eca,Ajustes tela de aporte,sem descricao,2023-11-14,2023-12-07,23,6539704660bad7cb7c479f9b,checklist,10
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,653976e80ac25d7e80648dc5,Ajustes tela de depósitos e aportes,sem descricao,2023-11-27,2023-12-07,10,653976f1f3b8bf2983ee14d7,checklist,5
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,653bbdf1e810eddf96f1dcec,Ajuste tela de convenio,sem descricao,2023-11-09,2023-12-07,28,653bbe059a4aec0bb6b5c5c5,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,653bbe010df70b13b9ecbdcb,Ajuste tabela de tb_agrupamento,sem descricao,2023-12-07,2023-12-07,1,653bbe1bf1f29c95d9658d13,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6556803b8c50d7d0571a1ead,Criar opção para permitir finalizar um convênio,"Avaliar necessidade do campo ""regime especial"" do convenio
+
+Essa  informacao vem do ente mas estamos replicando no convenio.
+
+Quando muda o status do ente o convenio nao muda, ficando inconsistente.
+
+Pq criamos esse campo no convenio?? Precisamos mesmo??",2023-11-17,2023-12-07,20,6556803f05cdd53963282e80,checklist,10
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,655dfd1b7b50b8bb866db546,Bugs e ajustes da versão 3.2.0,sem descricao,2023-11-22,2023-12-07,15,655e133db73cf07553bc7bfe,ocorrencias,18
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6560e0530a228831c053b40c,duplicacao de alvara na transferencia pra conta principal do mesmo processo,Houve um caso de Santo Amaro que foram gerados 2 alvaras cada conta.,2023-12-07,2023-12-07,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6565ebc8b3c4ada5b958d84e,Ajustes relatório relatório precatórios com previsão de débito,"\@‌Joselino Rocha de Souza e \@‌Angelo Andrade Moura queria aproveitar para pedir um ajuste de leve nesse relatório...o CNJ não permite qualquer informação sobre numero do processo e nome do Beneficiário...por isso, gostaria que essas informações fossem retiradas do arquivo PDF qndo gera o relatório. Retirar tb a coluna ""Executado"" pq está sempre em branco. o resto permanece. E trocar o nome da coluna N. Ofício para ""N. da RP"". Valeu
+
+‌
+
+\@Angelo Andrade Moura olha que viagem que descobri só agora....se eu estou consultando um ente X na tela de precatório, e mudo o nome para o Ente Y e não clico em ""pesquisar"", clicando em relatório PDF aparece o nome do Ente Y com a relação de precatórios do Ente X...o relatório sai erradão",2023-12-07,2023-12-07,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6565eca7fce1e8ddbc7a2f37,Correção bug no GPREC / PJe-Calc não considera pagamento - R254267,"**CONTORNO VIA RDM R254267**
+
+SELECT  DISTINCT (rp.SNRREQUISICAO)
+\--, sp.IIDSOLICITACAOPAGAMENTO id\_sol\_pagto, sp.DDTCRIACAO, rb.DDTREQUISICAOBAIXA , rb.DDTRECEBIMENTOBAIXA
+\--SELECT count (1)
+FROM gep.TBREQUISICAOBAIXA rb, gep.TBSOLICITACAOPAGAMENTO sp, gep.TBREQUISICAOPAGAMENTO rp, gep.TBSOLICITACAO s
+WHERE 1=1
+AND rb.IIDSOLICITACAOPAGAMENTO  = sp.IIDSOLICITACAOPAGAMENTO
+\--AND sp.IIDSOLICITACAOPAGAMENTO = 2018
+\--AND sp.STPSOLICITACAO = 'PRECATORIOSIP'
+\--AND rb.DDTRECEBIMENTOBAIXA IS NOT NULL
+\--AND sp.DDTCRIACAO = rb.DDTREQUISICAOBAIXA
+AND rb.IIDREQUISICAOPAGAMENTO = rp.IIDREQUISICAOPAGAMENTO
+AND rp.IIDSOLICITACAO = s.IIDSOLICITACAO
+AND s.IIDSITUACAO IN (7,8)
+\--AND rp.SNRREQUISICAO  IN ('02175/2021','06968/2023')
+AND to\_char(sp.DDTCRIACAO, 'DD/MM/YYYY hh24:mi') = to\_char(rb.DDTREQUISICAOBAIXA, 'DD/MM/YYYY hh24:mi')
+AND EXISTS (SELECT 1 FROM gep.TBATUALIZACAOAUTORP arp			
+WHERE arp.IIDSOLICITACAO = s.IIDSOLICITACAO
+AND arp.DDTATUALIZACAO >= sp.DDTCRIACAO 			
+)
+AND (SELECT count(1) from TBBENEFICIOPAGAMENTO pag   WHERE pag.IIDSOLICITACAO  = s.IIDSOLICITACAO) > 1
+\--AND EXISTS (SELECT 1 from TBBENEFICIOPAGAMENTO pag2   WHERE pag2.IIDSOLICITACAO  = s.IIDSOLICITACAO AND pag2.DDTPAGAMENTO >= to_date('14/09/2023','dd/mm/yyyy') )
+\--ORDER BY 2,3, 1
+;
+
+‌
+
+**--UPDATE gep.TBREQUISICAOBAIXA req**
+**--SET DDTREQUISICAOBAIXA = DDTREQUISICAOBAIXA + interval '1' minute**
+**SELECT count (1) FROM gep.TBREQUISICAOBAIXA req**
+**WHERE 1=1**
+**AND EXISTS (SELECT 1 FROM gep.TBREQUISICAOBAIXA rb, gep.TBSOLICITACAOPAGAMENTO sp**
+**WHERE rb.IIDSOLICITACAOPAGAMENTO  = sp.IIDSOLICITACAOPAGAMENTO**
+**AND sp.STPSOLICITACAO = 'PRECATORIOSIP'**		
+**AND to\_char(sp.DDTCRIACAO, 'DD/MM/YYYY hh24:mi') = to\_char(rb.DDTREQUISICAOBAIXA, 'DD/MM/YYYY hh24:mi')**
+**AND req.IIDREQUISICAOBAIXA =rb.IIDREQUISICAOBAIXA**
+**)**
+**;**",2023-12-07,2023-12-11,4,657074a599c5fe5a170cfe9c,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65673bc64f238ca093a4c50f,Voltar a tela de carga de dados para os perfis do nucleo e setor de precatórios,sem descricao,2023-12-07,2023-12-07,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65674fd8c826b49d218eea5d,Tela de liberação alteração pagto por acordo,sem descricao,2023-11-29,2023-12-07,8,65674fdf75a884fa4e698231,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,656e4a5a2893296721d38fb5,[PRIVADO] Fazer/localizar serviço no PJe que retorna as obrigações de pagar de um processo (ver com murilo),"‌
+
+[https://pje-dev.trt5.jus.br/pje-comum-api/api/tiposrubrica](https://pje-dev.trt5.jus.br/pje-comum-api/api/tiposrubrica ""‌"")
+
+[https://pje-dev.trt5.jus.br/pje-comum-api/api/processos/id/1303923/obrigacoespagar](https://pje-dev.trt5.jus.br/pje-comum-api/api/processos/id/1303923/obrigacoespagar ""‌"")",2023-12-14,2024-01-26,43,65771704cb4b84d82ca65f42,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,656f5eb25dd0fe97d574054b,Ajustes jobs de depósitos e contas judiciais,sem descricao,2023-12-05,2023-12-07,2,656f5eb25dd0fe97d57405c8,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,656f6f4c7018a9ccbafdcdc0,Melhorar navegacao e filtro para tela de alvaras a partir da liberacao e da conta judicial,"Tentar filtrar apenas os alvaras com vinculo c a liberacao selecionada.
+
+Hoje filtramos pelo ente e listamos todos os alvaras do dia da liberacao",2023-12-06,2023-12-07,1,65706f439a2582d6b6fff353,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6570742cbbad526d72206d53,Ajustes de nomes dos jobs de depósitos e contas judiciais,Migrado do #828.,2023-12-13,2023-12-14,1,6570742cbbad526d72206d9d,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6570761103dd605f7c1bcde8,Configurar ambiente de desenvolvimento de Jorge - falta apenas configurar máquina do TRT,sem descricao,2023-12-06,2023-12-06,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6570af6844e539c06e93b2ee,Auditar tabela tb_conta_judicial,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6578a137b121bcb308c83d9e,Ajustes nas telas de aportes e depositos,A Consulta de depositos nao tem ordenacao alguma.,2023-12-13,2023-12-13,0,657afaa34be37393523d3ad8,checklist,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,657c4acad0f790ba6d22a271,INCONSISTENCIA NO RELATORIO DE PAGAMENTO ALVARA,"Alguns casos em que o relatorio publico nao retorna resultados mesmo apos o cumprimento do alvara
+
+NORDESTINA:
+
+0000820-89.2018.5.05.0271
+
+0000151-02.2019.5.05.0271
+
+0000026-34.2019.5.05.0271
+
+0001157-15.2017.5.05.0271",2023-12-15,2023-12-18,3,657c63ff6eaaca2e44f1159e,causas identificadas,4
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65806f2b1cee0ce26ffbbd7a,RP 01326/2021 nao consegue reimportar pois tem diferenca de 0.01 no valor pago do gprec,"Devido a um registro equivocado de pgamento de 0.01 no gprec criou-se uma inconsistencia que nao possibilitava que a RP fosse reimportada.
+
+CONTORNO:
+
+Ajustei o valor pago no sip (+ 0.01) pra permitir reimportar a RP. Depois  de reimportar retirei o 0.01 que havia sido adicionado (tanto do valor pago quanto do valor devido). Assim o valor pago ficou consistente e o saldo bate com o gprec.",2023-12-18,2023-12-18,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6580840ecf05d839a4518092,Auditoria de ContaJudicial - gerenciar entidade auditada p evitar erro na persistencia (para fazer teste completo após SIF funcionar em homologação),Aguardar ambiente sif hml p fazer todos os testes relacionados.,2023-12-19,2023-12-19,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65a6766818c55254f8daec89,Bug - ao criar novo convenio e incluir RP da erro,sem descricao,2024-01-16,2024-04-16,91,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,65b13e72937686b34d36f01b,PJEKZ-87824 - Melhoria na tela da remessa para sugerir a classe processual do TST,sem descricao,2024-01-24,2024-03-12,48,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,65b17660e5a3fce6640a2fd2,PJEKZ-89925 - [Remessa] Erro ao não informar o valor das custas,sem descricao,2024-02-21,2024-03-05,13,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65b2784a65c1479eb7f31294,Criar FK nas tabelas filhas: tb_solicitacao e tb_convenio,"Descobri que tinha ao menos 2 tabelas sem as devidas FKs:
+
+1. tb\_solicitacao → tb\_divida
+2. tb\_convenio → tb\_agrupamento",2024-01-26,2024-01-26,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65b7e9d45c0e3050ecdaea0a,SOLICITAÇÃO - ALTERAÇÃO PARA REGIME GERAL,"Por favor, altera no SIP para REGIME GERAL os Município abaixo listados:
+
+1. Dário Meira
+2. Itiúba
+3. Lamarão
+4. Planaltino
+5. Utinga
+
+Obrigado,
+
+Fred
+
+```
+select * from tb_pessoa tp where id_pessoa in (22830,34472,18243,19862,30384)
+18243	LAMARÃO	J	13844071000112
+19862	PLANALTINO	J	13769021000118
+22830	DÁRIO MEIRA	J	13700174000109
+30384	UTINGA	J	13811807000156
+34472	ITIÚBA	J	13988324000121
+```
+
+```
+select * from tb_pessoa_juridica tpj where id_pessoa in (22830,34472,18243,19862,30384)
+
+update tb_pessoa_juridica tpj
+set in_regime_especial = false
+where id_pessoa in (22830,34472,18243,19862,30384);
+```",2024-01-29,2024-01-29,0,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65b80986764fed25a777429f,AJustar rateio da RP 07426/2023,sem descricao,2024-01-30,2024-01-30,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65bbab23580d45d154271120,Criar uma forma de transitar parametros nao sensiveis ao frontend,"Existem alguns parametros hardcoded no frontend, como o id da tarefa de sobrestamento. Seria interessante que ele fosse consultado dinamicamente.",2024-02-05,2024-02-05,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65c38836638363e4bb78c849,Criar schema para o SIP Privado no PJe para criar as views,"EVL → sip\_usuario\_servico / trt05senha
+
+HML → sip\_usuario\_servico / trt05senha",1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65c3b53faeda1c1d400e8718,Bug na comparacao dos saldos devedores entre SIP e GPREC antes do pagamento,"Tem um bug na verificacao dos valores da ultima RP que esta seno paga quando o gprec teve calculo atualizado apos a importacao pelo SIP.
+
+→ SolicitacaoServico.atualizarValorRP()
+
+O problema esta na totalizacao do saldo que esta em DividaValor, pois ali n estamos considerando so valores com juros e correcao",2024-02-07,2024-03-11,33,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,65d60477af54f936c47b12e4,PJEKZ-88103 - Remessa ao TST - advogado com endereço desconhecido,"\-> ERRO\_CONSULTAR\_BACKEND_MNI Erro na comunicação com servico solicitado. [MNI-014::Erro interno ao realizar consulta.]  - [Retificar autuação](https://pje.trt5.jus.br/pjekz/processo/289290/retificar ""‌"") - DESTINO\_CEP\_ENDERECO_PARTE",2024-02-28,2024-03-12,13,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65d890e43359611159843d4b,Esta desmarcando a quitacao da preferencia qd atualiza valores no SIP antes de liberar o pagamento.,Ainda Nao cconsegui reproduzir o caso,2024-02-23,2024-02-23,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65dcbac6e91e9bacf68c6090,Consulta de contas judiciais deve trazer contas novas,sem descricao,2024-03-04,2024-03-04,1,65dcbad8c8ea9de6a3f1fce6,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65df2a2bbbe8599f94516abd,RP reimportada esta saindo do convenio,Verificar tb o caso de exclusao seguida de nova importacao.,2024-02-28,2024-03-11,12,65df89ee892a50e88a5bf8f0,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65df2f597dbd9cfd16ce3eb6,Criar relatório para gerar a certidão de precatório para regime geral,"Oi Josi, aqui um exemplo da certidão de precatório
+[https://jte.trt5.jus.br/pjs/consultaDocumento?json={%22idDocumento%22:%2299920032702260765664%22}](https://jte.trt5.jus.br/pjs/consultaDocumento?json=%7B%22idDocumento%22:%2299920032702260765664%22%7D ""‌"")
+Outro: [https://jte.trt5.jus.br/pjs/consultaDocumento?json={%22idDocumento%22:%2299920032302259782104%22}](https://jte.trt5.jus.br/pjs/consultaDocumento?json=%7B%22idDocumento%22:%2299920032302259782104%22%7D ""‌"")
+
+[https://jte.trt5.jus.br/pjs/consultaDocumento?json=%7B%22idDocumento%22:%2299920032602260614349%22%7D](https://jte.trt5.jus.br/pjs/consultaDocumento?json=%7B%22idDocumento%22:%2299920032602260614349%22%7D ""‌"")",2024-03-08,2024-03-08,1,65df2fbf6fcafcc501061b70,checklist,17
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65e0eadc617e4803f20c5025,Homologação SIP Público Versão 3.2.4,sem descricao,2024-03-04,2024-03-11,7,65e0eae72d3e9131cebc08ee,checklist,9
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65e5d015af87ee60f2438bbd,Fazer tela externa para consulta de saldo das contas judiciais,sem descricao,2024-03-04,2024-03-04,1,65f30aad0814427748e192b3,ajustes apos testes,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65e5d015af87ee60f2438bbd,Fazer tela externa para consulta de saldo das contas judiciais,sem descricao,2024-03-04,2024-03-04,1,65f30a828d9b117daa6cbb4e,requisitos e regras,5
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,65e5d269e90e93e4a155801b,PJEKZ-91056 - Planejamento para a versão PJe 2.11 e Satélites - Remessa/Baixa,sem descricao,2024-03-04,2024-03-12,8,sem checklist,sem checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,65f1ef5913268acfc88417a7,Migração - Prazos abertos,A Web e Apk tiveram o mesmo comportamento.,2024-02-16,2024-08-19,185,65f1ef5913268acfc88417c2,teste,5
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,65f1ef5913268acfc88417aa,Migração - Assinatura documentos,"APK de teste:
+
+[https://drive.google.com/file/d/1jFVb6g6vRHR4IUmgxFcEg8wx9gniHQSp/view?usp=drive_link](https://drive.google.com/file/d/1jFVb6g6vRHR4IUmgxFcEg8wx9gniHQSp/view?usp=drive_link ""‌"")
+
+Manual de pareamento
+
+[https://pje.csjt.jus.br/manual/index.php/Pareamento_PJe](https://pje.csjt.jus.br/manual/index.php/Pareamento_PJe ""smartCard-inline"")",2024-02-22,2024-08-08,168,65f1ef5913268acfc88417c5,checklist,11
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,65f1ef5913268acfc88417aa,Migração - Assinatura documentos,"APK de teste:
+
+[https://drive.google.com/file/d/1jFVb6g6vRHR4IUmgxFcEg8wx9gniHQSp/view?usp=drive_link](https://drive.google.com/file/d/1jFVb6g6vRHR4IUmgxFcEg8wx9gniHQSp/view?usp=drive_link ""‌"")
+
+Manual de pareamento
+
+[https://pje.csjt.jus.br/manual/index.php/Pareamento_PJe](https://pje.csjt.jus.br/manual/index.php/Pareamento_PJe ""smartCard-inline"")",2024-02-22,2024-08-08,168,663e506a43e0eba94c7c73fd,teste,9
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65fade058e0077de1db8e614,"Erro ao realizar operação na tela de Contas Judiciais - ""registro alterado em outra transação""",sem descricao,2024-03-20,2024-03-20,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,65fc3eb4193156103a7522d9,Problemas Relatório e Saldo de contas - produção,![image.png](https://trello.com/1/cards/65fc3eb4193156103a7522d9/attachments/65fc3f0b0e5d179632447863/download/image.png),2024-03-21,2024-03-22,1,65fd7d9770b4d6a31ab47071,tarefas,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,660dad80a77895bf6e8dbbd9,Criar tela de lista de convênios para publicar no portal,"nome: lista de convênio do regime geral
+
+mostrar somente os do regime geral e homologados e consultar automaticamente quando abrir a tela
+
+paginação: 20, 50 e 100
+
+Colocar filtro por nome do município com mínimo de três letras e a pesquisa deve ser feita:  %str%
+
+Por padrão irá mostrar os convênios com saldo > 0 mas deve colocar swtch: mostrar quitados para mostrar todos
+
+Campos da listagem, nessa ordem:  nome ente, número do procedimento,  valor devido, valor pago, saldo e quitado (manter os labels da tela de convênio)
+
+[https://www.trt5.jus.br/Informacoes-gerais-precatorios](https://www.trt5.jus.br/Informacoes-gerais-precatorios ""‌"")",2024-04-03,2024-05-03,30,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,661011d5b8ec5c93ba4de7ac,"Criar uma tela de consulta pública para todas as ocorrências registradas, sem necessidade de login (por enquanto sem download do documento). Exemplo https://portalpje.trt5.jus.br/pje-indisponibilidades - Testado - OK","**Como** Usuário externo (advogado ou procurador) não autenticado
+
+**Eu quero** consultar as indisponibilidades registradas
+
+**Para que** eu possa baixar a certidão de indisponibilidade e juntar ao processo
+
+‌
+
+Ambiente de teste: [https://indisys-dev.trt5.jus.br/](https://indisys-dev.trt5.jus.br/ ""‌"")
+
+Login = AD de testes = Atagen",2024-05-08,2024-07-31,84,6682c82f07bdcfe00a50ec43,checklist,4
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,661011d5b8ec5c93ba4de7ac,"Criar uma tela de consulta pública para todas as ocorrências registradas, sem necessidade de login (por enquanto sem download do documento). Exemplo https://portalpje.trt5.jus.br/pje-indisponibilidades - Testado - OK","**Como** Usuário externo (advogado ou procurador) não autenticado
+
+**Eu quero** consultar as indisponibilidades registradas
+
+**Para que** eu possa baixar a certidão de indisponibilidade e juntar ao processo
+
+‌
+
+Ambiente de teste: [https://indisys-dev.trt5.jus.br/](https://indisys-dev.trt5.jus.br/ ""‌"")
+
+Login = AD de testes = Atagen",2024-05-08,2024-07-31,84,66a14e8bc6ca0b37da30beaa,testes,3
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6615b857853e578968ab8835,Alterar vault usuario e senha do Gprec no sipag-integracao de hml,sem descricao,2024-04-09,2024-04-16,7,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66192b0ba7cf2f0caaa3e268,Adicionar schema gep nas entidades do Gprec (sipag-integracao),sem descricao,2024-04-12,2024-04-16,4,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66193e75501d4af23a91b34d,Ajustes Consulta Convênios Judiciais,sem descricao,2024-04-15,2024-04-16,1,66193e7dd8a59ed392461ad3,checklist,5
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66194632e3a2d5b3f68ffdb9,RP cancelada no GPREC estava ativa no SIP,"SOLUCAO:
+
+- mudar a data do historico pra antes dia 05/04 e rodar novamente (com isso a RP foi cancelada)
+- mudar a data de inicio pra D-2 pra evitar casos  em que alteracoes  feitas durante a execucao do job nao sejam tratadas na execucao seguinte",2024-04-29,2024-05-14,15,661946537506ba2b4f396991,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,661989617bc8e8118d63c877,Corrigir qtde de precatórios na certidão de regularidade,"Frederico Augusto de Aguiar Rodrigues, 13:43
+
+ERRO NA CERTIDÃO DE REGULARIDADE
+
+Frederico Augusto de Aguiar Rodrigues, 13:45, Editada
+
+\@Joselino Rocha de Souza OS RELAtórios estão dizendo que todooooo mundo tem 4 precatórios, divergindo dos dados das tabelas
+
+alguma coisa deve ter apagado a parametrização com o numero de precatórios
+
+Frederico Augusto de Aguiar Rodrigues, 13:45, Editada
+
+veja os exemplos de Coité e Amargosa",2024-04-15,2024-04-16,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,661fcf82ca760ad85a72c759,Erro no pagamento de acordo de desagio,Provavelmente esta barrando pois nao esta considerando o desconto referente ao % de desagio na verificacao da quitacao;,2024-04-17,2024-04-17,1,662044b2dab99c3399f56bf5,checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,6627bf387a0d78fa9e22187c,Gerar novo build iOS,sem descricao,2024-07-29,2024-08-05,7,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,662f9ff5137905d9b807af77,Erro no Relatorio de pagamento - conta de destino errada,sem descricao,2024-04-29,2024-05-14,15,662fcae6c9f0b484b2d114aa,checklist,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6633aa43ca0a712667558a63,ERRO - PRECATÓRIO COM PAGAMENTO SUPERPREFERENCIAL E NA CRONOLOGIA NA MESMA LIBERAÇÃO,sem descricao,2024-05-02,2024-05-14,12,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,66353c10591301806e022560,"PJEKZ-93950 -  Erro na remessa para o TST: duplicate key value violates unique constraint ""tb_remessa_in09""",sem descricao,2024-05-03,2024-07-22,80,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6643ba408b4d4a09921c1998,REMOVER SEALED SECRETS DO AMBIENTE DEV E VERIFICAR O DE HOMOLOGACAO,sem descricao,2024-07-26,2024-07-26,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66474d4475f0ced816a66d11,Requisitos - 2a etapa,sem descricao,2024-05-17,2024-05-17,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66478714c4380054038866a3,MIGRAR TESTES UNITARIOS PRA JUNIT 5,sem descricao,2024-05-23,2024-05-23,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,664c73189bbd968d0a8259b8,Primeiro teste com Cypress,sem descricao,2024-05-24,2024-05-24,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,6655fc9298cd42d46911f101,PRODUCAO - Desfazer homologação de acordo RP 04775/2023,"Conforme pedido de Fred em 28/05 no grupo SIP-Suporte
+
+‌
+
+Query executada:
+
+`update sipag.tb_pedido_acordo set dt_homologacao = null, ds_juiz_homologacao = null where id_pedido_acordo = 15;`",2024-05-28,2024-05-28,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66573e65cc5bd0da718d9d27,PRODUCAO - RP Plurima - Beneficiário quitado continua aparecendo na tela de liberação,"Existia 2 registros em DividaParte pra mesma pessoa, um estava quitado e outro nao.
+
+SOLUCAO: remover o registro sem pagamento.
+
+‌
+
+select * from tb\_divida\_parte where id_divida = 45286;
+
+select * from tb\_divida\_valor where id\_divida\_parte = 55832;
+
+**Criado backup com os dados excluidos:**
+
+tb\_divida\_valor\_bck\_trello\_916 e tb\_divida\_parte\_bck\_trello\_916
+
+**Query:**
+
+delete from tb\_divida\_valor where id\_divida\_parte = 55832 ;
+delete from tb\_divida\_parte where id\_divida = 45286 and id\_divida_parte = 55832;",2024-05-29,2024-05-29,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,665791771dc80f4733f4c8fa,PRODUCAO - Erro no Registro de Pagamento GPREC (geracao do PDF),"SCRIPT EXECUTADO:
+
+update tb\_pessoa set ds\_nome = 'Reis Pereira Advocacia E Consultoria' where id\_pessoa = 34878 and ds\_nome = 'Reis Pereira Advocacia& Consultoria';",2024-06-03,2024-06-03,1,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,665ddae0131ea412ee561ef0,Realizar geração da certidão no IndiSys com possibilidade de download,"**Como** usuário autenticado do Indisys
+
+**Eu quero** gerar certidão de indisponibilidade para uma ocorrência registrada
+
+**Para que** a certidão fique disponível para download pelos usuários externos (advogados ou procuradores)
+
+‌
+
+Implementar esta certidão baseada na implementação da “Certidão de Vínculo” do JT SIGEP. >> Em caso de dúvidas, ver com Ruy.",2024-07-22,2024-08-20,29,66b38523f112af86224f15a5,checklist,6
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,6672e1a27fb363377b84a4d6,"[ADM] Atualização de Secrets: não está considerando a delegação atribuída, está sempre verificando se o usuário está como admin regional.",sem descricao,2024-07-22,2024-08-12,21,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,667ed250647b45d76b219388,#RDM R273447 - Instalar SIP 3.3.0 - entes privados - Preparar Plano de Ação da RDM do SIP 3.3.0,"1. Criar views no banco pje\_1grau ( schema trt5) pra acesso pelo usuario  sip\_usuario_servico (views `vw_sip_processo_reuniao_execucao e vw_sip_parte_processo_reuniao_execucao`)
+2. Conceder acesso de select nas tabelas consultadas pelas views (`tb_processo_parte`, `tb_usuario_login`, `tb_obrigacao_pagar`, `tb_rubrica`, `tb_processo_trf`, `tb_processo`,` tb_agrupamento_fase`,` tb_orgao_julgador`,` tb_classe_judicial`)
+3. Cadastrar/ajustar credenciais no Vault  pro usuario sip (`vault:secret/data/apps-sipag/database/sipag/pje_1grau#username` e `vault:secret/data/apps-sipag/database/sipag/pje_1grau#password`)
+4. Preparar MR do projeto Templates (observar envs das novas api pje-adm e pje-comum; envs do modulo de email e avisos)
+5. Executar scripts versão 3.3.0
+6. Mudar parametro ‘AMBIENTE' para 'PROD’
+7. Aprovar MR
+8. Testar funcionalidades básicas
+9. Testar funcionalidades que consultam as view do PJe",2024-07-10,2024-07-10,1,66853e8acd402e8002e80abc,tarefas,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,6682c0a33b0cf077e7e5cd1c,SISDOV - Configuração para cooperação técnica com TJBA,"Gerar scripts:
+
+1. Carga das cidades (unidades)
+2. Carga das salas
+3. Carga da agenda para as salas criadas
+
+Definir adm das salas/municípios;
+
+Definir email das salas.",2024-07-01,2024-07-31,30,668bd5e4596d96a363f91d25,checklist,6
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,6682f1f576f789b68219de63,PJEKZ-96351 - Erro ao Acessar a Tela de Obrigações a Pagar e PJEKZ-96239 - Falha no lançamento de obrigações a pagar,sem descricao,2024-07-01,2024-07-22,21,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,66883185735c17caa0c64dc4,Inclusão de Planilha listando execuções bem sucedidas no Preá,"A planilha deve ter as informações:
+
+- números do precatórios,
+- beneficiários
+- municípios
+- data-hora",2024-07-05,2024-08-02,28,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66952909b1ea347b00e65de6,Validar login via KC nacional com outro TRT em homologação. - Aguardando testes do TRT6 / TRT15 - com problemas de comunicação entre o TRT6 e o TST,sem descricao,2024-07-17,2024-08-13,27,66a79db3ef9747f203244869,checklist,3
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66966e6ea4bc3be1e6a1a601,SISDOV: Atualizar Camel para versão v4.7 se possível com Spring Boot 3.3.1. log4j para versão 2.23.1 e postgres para 42.7.3 - Em DEV,sem descricao,2024-07-30,2024-08-07,8,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,669676e9e74454217cfbb8be,Robô está colando decisões de um processo em outro de forma incorreta,sem descricao,2024-07-16,2024-07-31,15,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,669685a9c493587d2b1861c9,Alterar forma de salvamento do arquivo da ata no Drive para utilizar uma pasta compartilhada de usuário TRT.,sem descricao,2024-07-22,2024-08-13,22,66a7a629e5705c81467f4103,checklist,2
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,669a6548449690e0b655a0b3,Corrigir Registro de valores pagos por rubrica que ficou errado - RP 03268/2022,sem descricao,2024-07-19,2024-07-19,1,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,669abcd57513222845dbd4b5,Ajuste robô Faro - Não remeter processos recebidos no mesmo dia.,sem descricao,2024-07-19,2024-07-26,7,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a117b4b751ed28aeb18fb0,Nova eliminação dos processos com certidão de crédito - aguardando parecer,sem descricao,2024-07-24,2024-07-31,7,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66a1382f9356280f430a6876,BUG PRODUCAO - alvara nao aparece na tela de consulta,"EXEMPLO: MORTUGABA liberacao 5609
+
+‌
+
+‌
+
+Aparentemente o problema e a inexistencia de teto rpv nesse ente
+
+SOLUCAO: PRECISA AJUSTAR A QUERY PRA FAZER LEFT JOIN COM O TETO RPV",2024-07-24,2024-07-24,1,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66a2944e61e114529a08b465,Dúvida Técnica #63201: Erro na carteira funcional - aguardando retorno TRT24.,"Redmine [#63201](https://redmine-sigep.trt2.jus.br/redmine/issues/63201 ""‌"")",2024-07-25,2024-07-31,6,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66a2ab9cc7da09f8a5b23d94,"[Teiid produção TRT9] Mudar parâmetros - com erro no Cloud Front, aguardando equipe de infra TRT5",sem descricao,2024-07-25,2024-07-29,4,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66a3a52cbf17a1824d08badb,BUG PRODUCAO - NAO CONSEGUE INCLUIR RP NO CONVENIO,sem descricao,2024-07-26,2024-07-26,1,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,66a3d1f38c8491799be80979,Inpres: tratar codificação de caracteres nas planilhas.,sem descricao,2024-07-26,2024-07-31,5,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a7aa582c3efe9b505a5ade,SISDOV: alterar forma de build da imagem do backend para usar o packeto build packs.,sem descricao,2024-07-29,2024-07-30,1,66a8dd7c355b1dbffeb89caf,checklist,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a7afcac0015ba59805352b,PEDIDO DE RELATÓRIOS PARA CORREIÇÃO ARQUIVO - IOS,sem descricao,2024-07-29,2024-07-31,2,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a8c622eba407154b9b5e6c,[TRT02-SP][PJEKZ-97473]Desativação provisória de Sala - SISDOV,sem descricao,2024-07-30,2024-08-07,8,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a8e21492cc6f36b84b68cc,Publicar Atagen 1.4.0 no ambiente de homologação e liberar para Núcleo de Correição validar.,sem descricao,2024-07-31,2024-08-02,2,66aa0ab05982c4483c35d897,checklist,4
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a8e2e51c848570ae5a8992,Marcar apresentação do formulário de diretores para a Corregedoria.,sem descricao,2024-07-31,2024-07-31,0,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66a8e64b2069fcb5ad404d7b,SISDOV: revisão de itens do Sonar (backend),sem descricao,2024-08-02,2024-08-07,5,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,66a92f408f7014c81cfc47d0,PJEKZ-97457 Erro ao acessar tela de pagamentos - versão 2.11,sem descricao,2024-07-30,2024-08-12,13,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,66a92f93fd7564c3aab922f7,PJEKZ-96239 Falha no lançamento de obrigações a pagar,sem descricao,2024-07-30,2024-07-30,0,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66aa444338fd1f024cfbb98c,SIP PRIVADO - consulta de obrigações a pagar,"- Verifiquei as planilhas de atualização recebidas até 30/7/2024. Seguem as informações:
+
+0000179-94.2017.5.05.0026 - consta apenas valor de custas R$235,17. Na tela de Obrigação de pagar do processo, o valor devido pela executada está atualizado, no entanto, o SIP , na tela de habilitação processual do SIP, consta como valor da dívida R$67.796,02, referente ao somatório de todas as atualizações efetivadas pela vara. Tal fato aconteceu em todos os outros processos a serem habilitados.
+
+‌
+
+Tem que usar a data do cálculo pra filtrar os cálculos",2024-08-01,2024-08-01,1,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66aa779889a9c621e055d45b,BUG PRODUCAO - nao consegue pagar precatorio de Salvador RP 01768/2019,Verificar tb os casos de suspensao. Nao processar as RPS suspensas na geracao de alvara.,2024-08-01,2024-08-01,1,66ab8df2a754196911f766d2,bug,1
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66aa779889a9c621e055d45b,BUG PRODUCAO - nao consegue pagar precatorio de Salvador RP 01768/2019,Verificar tb os casos de suspensao. Nao processar as RPS suspensas na geracao de alvara.,2024-08-01,2024-08-01,1,66ab8dfa7f3aa26b973e1e78,melhoria,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66aa7dbff22c6d9dbe6a54cc,Atagen: atualizar ícones dos módulos na tela inicial do sistema.,"- Ata → receipt_long [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:receipt_long:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=document&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:receipt_long:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=document&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")
+- Modelo → history_edu [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:history_edu:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=document&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:history_edu:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=document&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")
+- Parâmetro → manufacturing [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:manufacturing:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=confi&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:manufacturing:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=confi&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")
+- Perfil → manage_accounts [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:manage_accounts:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=profile&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:manage_accounts:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=profile&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")
+- Cadastro formulário → post_add [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:post_add:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=add&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:post_add:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=add&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")
+- Preenchimento formulário → fact_check [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:fact_check:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=form&icon.size=24&icon.color=%23e8eaed](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:fact_check:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=form&icon.size=24&icon.color=%23e8eaed ""smartCard-inline"")",2024-08-02,2024-08-05,3,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe77d08f9052193afb92c,Atagen: Pergunta tipo interstício sofreu alteração e agora possui 3 colunas (ver com André Fagundes) - testado OK,sem descricao,2024-08-02,2024-08-07,5,66b22643481ac2e3f1b0741b,checklist,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe77e4d60321c509c1814,Atagen: Regra para obtenção dos dados do formulário: obter sempre do formulário mais recente do ano atual. testado - OK,sem descricao,2024-08-05,2024-08-16,11,66bb534d0c74a84a608322b2,checklist,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe77ee529d88b4fa648b2,"Atagen: Colocar botão para impressão das respostas pelo Diretor, para que ele possa gerar um PDF e para juntar ao PJe Cor. Este botão deve ""chamar"" o Ctrl+P do navegador. OK (Chrome e Firefox)",sem descricao,2024-08-15,2024-08-19,4,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe77f2cb4c531e28f060c,"Atagen: Bug: Inclusão automática de parâmetro a partir de alteração de pergunta não está funcionando ao modificar ""É usado na ata?"" de Não para Sim. Verificar de forma análoga se a exclusão está sendo feito na operação inversa, ou seja, quanto altera de Sim para Não. André : É PARA EXCLUIR QDO MUDAR PARA ""NÃO"" ???!!!!!! A mudança para ""Sim"" está funcionando.",sem descricao,2024-08-09,2024-08-13,4,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe77fcdd1712dd3869273,Atagen: Mudar botão de abrir ata docs de lugar para não ficar abaixo da mensagem de ata gerada com sucesso. Hoje o usuário precisa esperar mensagem sumir para conseguir clicar no botão. - OK (Chrome e Firefox),sem descricao,2024-08-14,2024-08-19,5,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66abe7814f8973c9b1124568,"Atagen: (Sugestão interna Setic) ""É usado na ata?"" deixar default sim - OK",sem descricao,2024-08-14,2024-08-19,5,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66acaa7145ed9c137f89894f,Lista de Eliminação de Processos da Capital,sem descricao,2024-08-02,2024-08-08,6,sem checklist,sem checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,66b0d00d80a0eae673869a75,Ajuste jte-pjs para Datajud,sem descricao,2024-08-05,2024-08-12,7,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66b100d9183e333d8d9c5509,Relatório de processos no arquivo (Acervo total Arquivo),sem descricao,2024-08-05,2024-08-12,7,66b25d01f92fd1a45ebfdc19,checklist,2
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,66b218a87100b4be75ed7d1b,Comparativo Python vs. PDI,sem descricao,2024-08-06,2024-08-09,3,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66b2312f22a0bc1e61bf81b2,Ajuste datas,"---
+
+PROBLEM PROBLEM PROBLEM PROBLEM ---",2024-07-02,2024-08-02,31,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66b341ba613b8b657d1de835,(triagem/ guarda permanente) Relação de processos Vt. Euclides da Cunha - Edital 8/2023,sem descricao,2024-08-07,2024-08-12,5,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,66b379f8b8bbeda0bcd2da87,Faro: verificar por que não processou os processos conforme esperado (ver chat),sem descricao,2024-08-12,2024-08-16,4,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66b3842f4a66a81b0c82e135,(André) Ver Problema da tabela de processos com 300 registros,sem descricao,2024-08-14,2024-08-15,1,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,66b3965940f16930dca03cd3,PJEKZ-97749 [NovaRemessa] Não carrega documento remetido de tamanho acima de 10MB,sem descricao,2024-08-07,2024-08-12,5,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66b4c727aab7d975b8ce3be7,[TRT9 Incidente #63503] Exibição de contracheque sem a folha estar fechada.,"Tarefa #63503 incluída (por Sustentação Local TI SIGEP TRT09).
+
+----------------------------------------
+Incidente #63503: Exibição de contracheque sem a folha estar fechada.
+http://redmine-sigep.trt2.jus.br/redmine/issues/63503
+
+* Autor: Sustentação Local TI SIGEP TRT09
+* Situação: Nova
+* Prioridade: Alta
+* Atribuído para: TRM - Aplicativo Móvel - Grupo
+* Versão: 
+* Tribunal solicitante: TRT09
+* Versão do módulo usado: TEIID 2.10.0
+* Tipo do incidente: Erro em funcionalidade
+* Ação executada: 
+* Comportamento indesejado: 
+* Há solução de contorno?: 
+* Nome do Solicitante: 
+* Telefone do solicitante: 
+* Prazo para resposta: 
+* Data de conclusão: 
+* Tag: 
+* Tarefa é relativa ao eSocial?: Não
+* Informações necessárias: Print da tela anexado à tarefa
+----------------------------------------
+
+No App-corportaivo, última versão, que consulta as folhas via TEIID, está mostrando a folha de Agosto, a qual nem está fechada ainda, está em processo de cálculo.
+
+
+
+
+
+Ao que tudo indica foi por conta da alteração no TEIID para liberação de prévia que foi realizado, e pode ser verificado aqui:
+
+https://git.pje.csjt.jus.br/sistema-administrativo/sigep/integracao/teiid/-/commit/c837c763da0b395a1271f581437626455ee4298c
+
+
+
+
+
+
+
+
+Na view APPVW_TEIID_FOLHA, onde existia a clausula AND DT_PAGAMENTO IS NOT NULL agora não existe mais na versão 2.10.0 do TEIID.
+
+
+Abaixo a imagem da requisição HTTP realizada pelo aplicativo em sua versão web e pode se verificar o retorno contando com a folha do mês 08:
+
+
+https://jtsigep.trt5.jus.br/api/rh/trt9/folha/77033/2024?modulo=RH
+
+
+
+
+
+
+
+E a nosso cadastro de folhas na Folha Web em produção, filtrado pelas folhas normais:
+
+
+
+
+
+
+
+
+
+
+Como solicitação extra, solicito melhoria na exibição do aplicativo, onde só mostra a ""DESCRIÇÃO"" da folha como sendo o campo Anotação na Folha Web.
+
+Aqui no TRT9 não costumamos repetir na Anotação o Mês e Ano de Referencia da folha, então solicitamos que seja exibido o Mês e Ano de cada folha apresentado no aplicativo, como já existente no retorno da requisição HTTP visto acima e não somente o campo DESCRICAO
+
+
+
+
+
+
+
+
+-- 
+Este é um e-mail automático enviado pelo Redmine SIGEP-JT (https://redmine-sigep.trt2.jus.br/redmine/).
+",2024-08-08,2024-08-09,1,sem checklist,sem checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,66b4cfebb068c1d7c1d772a4,Criar arquivos executáveis para facilitar abrir o cypress e o git GUI,sem descricao,2024-08-13,2024-08-14,1,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66b5e14e68cade44a1bd0fbe,PROCESSOS RECEBIDOS E PRODUTIVIDADE DA VARA - André Fagundes reportou erros na 26ª VT - OK,sem descricao,2024-08-09,2024-08-12,3,sem checklist,sem checklist,0
+632de9ba9a8f070108a20b95,Time Remessa,632de9ba9a8f070108a20ba1,concluido,66b64f85181066f91a5c935c,PJEKZ-95951 - Retorno/Remessa - Baixa/Diligência em lote não carrega processos para remessa em lote ao 1º grau / PJEKZ-96638 Baixa/Diligência em Lote : Falha no Processamento da Tela,"PJEKZ-96638
+
+Baixa/Diligência em Lote : Falha no Processamento da Tela",2024-08-09,2024-08-09,0,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66b9f68a7711f45bed98b2fb,[Google Docs API] Preview new methods for tabs for Google Docs REST APIs and update your code,"Google Developers logo
+
+
+
+New tabs methods are available starting July 29, 2024.
+
+
+
+Enviaremos uma cópia desta mensagem no idioma principal da sua conta assim 
+que as traduções estiverem disponíveis. Estimamos que esse processo leve de 
+uma a duas semanas.
+
+Dear Google Docs API Developer,
+
+You are receiving this communication because we have identified your 
+organization as a user of our current Docs REST APIs, and we want to let 
+you know that your usage of the Docs REST APIs may be affected due to a new 
+feature release.
+
+We've included additional information below to guide you through this 
+change.
+
+What you need to know
+
+In preparation for the end-user launch that will start rolling out later in 
+this quarter (Q3), we've made adjustments to our API platform.
+
+On July 29, 2024, we released additions to the Docs REST APIs to support 
+document tabs. These new additions let you specify the tabs on which your 
+code should run when a document has multiple tabs.
+
+
+If your code doesn't specify which tabs to read data from and write data 
+to, and is running on a multi-tabbed document, it defaults to the first tab.
+For documents with one tab, the behavior remains unchanged.
+
+What you need to do
+
+Starting July 29, 2024, you can update your code using the tabs methods, as 
+needed, ahead of the end-user launch that will start rolling out later in 
+this quarter (Q3).
+
+If you would like to create a document with tabs to test your code changes, 
+you can participate in a public preview for the tabs end-user experience in 
+Docs by joining the Developer Preview Program (DPP). You must register with 
+a valid Google Workspace account.
+
+We're here to help
+
+For more information on the common use cases for tabs fields and methods, 
+see the Work with tabs guide.
+
+We value your partnership and are available to assist you to ensure a 
+smooth transition as we roll out this feature. If you have any additional 
+questions or require assistance, please feel free to contact Google 
+Workspace support.
+
+Your affected projects are listed below:
+
+
+exemplo-integracao-gdocs (exemplo-integracao-gdocs)
+Ata-Cor (ata-cor)
+
+Thanks for choosing Docs APIs.
+
+—The Google Docs API Team
+
+
+
+© 2024 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
+
+You have received this mandatory service announcement to update you about 
+important changes to Google services you use.
+
+
+Twitter Facebook LinkedIn YouTube
+
+
+
+",2024-08-14,2024-08-16,2,sem checklist,sem checklist,0
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66bb57584ef53769ef258b52,"Atagen: Inativar ou ativar parâmetro a partir de pergunta do formulário caso o usuário altere o dado ""É usado na ata?"" de Sim para Não ou de Não para Sim respectivamente. - Testado - OK",sem descricao,2024-08-13,2024-08-16,3,sem checklist,sem checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,66bb68badedd7a4b60d585ca,Obter lista de usuários para teste,"Perito
+
+Parte
+
+Oficial de Justiça
+
+Geral
+
+‌
+
+\>>> Atualizar no redmine: [https://redmine.trt5.jus.br/projects/jte/wiki/Roteiro\_de\_Testes](https://redmine.trt5.jus.br/projects/jte/wiki/Roteiro_de_Testes ""‌"")",2024-08-16,2024-08-16,0,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66bbb43c6cee296fe04eff0a,TRT15 - SIGEP-JT - Aplicativo Corporativo - Ambiente Produção,"### **Luiz Fernando Fontana Rodrigues Moledo**
+
+###
+
+16:17 (há 12 minutos)
+
+para appsigepjt-desenv, Secao
+
+Prezados, boa tarde.
+
+Conforme a documentação disponível em [https://san-doc.csjt.jus.br//index.php/SIGEP-JT\_-\_Aplicativo\_JT\_SIGEP#Manual\_de\_Implanta%C3%A7%C3%A3o\_nos\_Regionais](https://san-doc.csjt.jus.br//index.php/SIGEP-JT_-_Aplicativo_JT_SIGEP#Manual_de_Implanta%C3%A7%C3%A3o_nos_Regionais ""‌""), solicitamos a configuração por parte do TRT05 para que possamos utilizar o aplicativo corporativo Sigep JT no ambiente de produção aqui do TRT15.
+
+**Dados do Teiid:**
+
+url: [sigep-pr-teiid.trt15.jus.br](http://sigep-pr-teiid.trt15.jus.br/ ""‌"")
+porta: 31000
+usuário: app
+senha: bm65xY49Lypt0
+
+**Dados do Keyclock:**
+
+{
+  ""realm"": ""trt15"",
+  ""auth-server-url"": ""[https://auth.trt15.jus.br/auth/](https://auth.trt15.jus.br/auth/ ""‌"")"",
+  ""ssl-required"": ""external"",
+  ""resource"": ""app-corporativo"",
+  ""verify-token-audience"": true,
+  ""credentials"": {
+    ""secret"": ""CdF7FNsSCahLBFMFpBxnPdpbhvLR5ly8""
+  },
+  ""use-resource-role-mappings"": true,
+  ""confidential-port"": 0
+}
+
+- Como se trata de ambiente de produção, não temos como fornecer usuário de teste para este ambiente, conforme solicitado na wiki.
+
+Fico à disposição, caso necessário.
+
+Grato.",2024-08-15,2024-08-15,0,sem checklist,sem checklist,0
+65f1ef5813268acfc8841654,JTe,65f1ef5813268acfc884165c,concluido,66bd07285796df4bcc8a8179,[TRT21] PJEKZ-97989: Página de Apregoamento do JTe aparecendo processos de Salvador de forma intermitente," Message Title 
+Este item foi criado 
+Agora este item está *atribuído a você*. 
+
+
+PJEKZ / [image: 
+cid:jira-generated-image-avatar-a440d729-41e8-49ef-8db4-69cfd451c91c] 
+PJEKZ-97989 Aberto 
+Página de Apregoamento do JTe aparecendo processos de Salvador de forma 
+intermitente 
+
+Ver item · Adicionar 
+comentário 
+
+
+Item criado 
+
+[image: 
+cid:jira-generated-image-avatar-17edbca9-f406-408c-8a88-85ef12099f85] *TRT21 
+Representante Local* criou este item em 14/ago/24 12:25 
+
+Resumo: Página de Apregoamento do JTe aparecendo processos de Salvador de 
+forma intermitente 
+Tipo de Item: [image: 
+cid:jira-generated-image-avatar-a440d729-41e8-49ef-8db4-69cfd451c91c] Incidente 
+
+Versões Afetadas: JTe - 2.15.1 
+Responsável: Time TRT5 MOBILE 
+
+Anexos: Tela de Apregoamento.png 
+Criado: 14/ago/24 12:25 
+Ambiente: Produção 
+Prioridade: [image: 
+cid:jira-generated-image-static-minor-9fe5f9b6-bdbb-4558-b7c2-77dfc4b36322] Média 
+
+Solicitante: TRT21 Representante Local 
+
+Chamado Interno Regional: Chamado Técnico TRT21: CT165024 
+
+Informações do Usuário: Qualquer usuário 
+Produto: Satélite - JTe Mobile 
+Subsistema: 1º Grau 
+Urgência: 1 
+Descrição: 
+
+Prezados(as),
+
+A página de apregoamento do JTe está mostrando de forma intermitente 
+processos de Salvador.
+
+Já foi feito o procedimento de reiniciar as máquinas, limpeza de cache em 
+todos os navegadores. 
+
+Feito o procedimento abaixo:
+
+Acessar jte.csjt.jus.br
+Acessar a tela de configurações (menu hambúrguer-> Configuracoes) e clicar 
+em Atualizar configurações integradas
+Abrir o devtools do navegador (tecla F12)
+Acessar a Aba Aplicações -> Local storage -> localizar a linha 
+orgaosJulgadores -> marcar essa linha (clique) e deletar 
+Acessar o link da pauta digital: 
+https://jte.csjt.jus.br/?view=ApregoamentoDigitalPage&orgaos=1,2,3,4,5,6,7,8,9,10,41,42,43,100&regional=521&exibePartes=S&exibeSala=S&alertaSonoro=S&maxItensApregoados=3&tempoDestaque=9&exi=
+
+Ao tentar acesso aparece mensagem de segurança no navegador com o código 
+SSL_ERROR_BAD_CERT_DOMAIN que avança após confirmação.
+
+
+
+Dos testes realizados em algumas versões do firefox 115.9.1esr (64-bits) e 
+115.12.1esr (64-bits) e 115.12.1esr (64-bits) em algumas máquinas funciona, 
+mas não em outras.
+
+
+
+A equipe de segurança suspeita que seja algo relacionado a certificado.
+
+
+
+Segue para melhora análise.
+
+Desde já, agradeço a atenção.
+
+
+Esta mensagem foi enviada pelo Atlassian Jira (v9.4.1#940001-sha1:929a9cc) [image: 
+Atlassian logo] 
+Se as imagens anexadas não forem exibidas, consulte este artigo 
+
+.
+",2024-08-14,2024-08-19,5,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66be1ae98bbb7b9f6386806a,nova tarefa de teste do pyllo,sem descricao,2024-08-15,2024-08-15,0,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66be1c89915865e92efd6e7e,corrigir tempo de resposta do pyllo,sem descricao,2024-08-15,2024-08-15,0,66be250f4d115ad527cc1d92,checklist,3
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66be1f2f1b9504d75345bf06,mais um cartão de teste,sem descricao,2024-08-08,2024-08-15,7,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66be1f3407c6765e64c78383,mais outro cartão de teste,sem descricao,2024-08-01,2024-08-15,14,sem checklist,sem checklist,0
+65f1e79cce8368236efc69b7,AutomatizaTRT,65f1e79cce8368236efc69bc,concluido,66be215b154944ecd4cf561c,Timeout no Robô Preá - aguardando Valéria testar,"O PJE tem demorado a carregar a lista de processos não protocolados, e esse tempo supera o timeout do robô Preá. Deve ser aumentado o tempo de espera.",2024-08-15,2024-08-19,4,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66be2f93e7df2aae5132d79a,Veja o campo de data sendo preenchido automaticamente,sem descricao,2024-08-15,2024-08-15,0,66bf50625454356d2d19a47b,testes testes testes,1
+65f1e8e0cd957bafc99ead99,SEDSJ,65f1e8e0cd957bafc99eada0,concluido,66be46591544b423e1c4da92,"Indisys: ao deletar uma indisponibilidade, o pdf no minio ser deletado também",sem descricao,2024-08-20,2024-08-20,0,sem checklist,sem checklist,0
+5e7b59181c3ddf39d72541e4,Time SIP,5e7ba00591f196223df093e9,concluido,66bf517a474af283c9f50754,Troca do servidor de BD de homologação - versão mais nova,"Novo endereço:
+[sipag:4mbnpr0d@10.5.15.143:5433/sipag_hml](http://sipag:4mbnpr0d@10.5.15.143:5433/sipag_hml ""‌"")
+
+Novo vault:
+**apps-sip-hml/database/sipag/sipag_hml**",2024-08-16,2024-08-16,1,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66bf697546166789acdf8822,Incidente #63738: Erro ao gerar carteira funcional - Encaminhado ao regional verificar o tamanho da foto do servidor,"# [Incidente #63738: Erro ao gerar carteira funcional](http://redmine-sigep.trt2.jus.br/redmine/issues/63738 ""‌"")
+
+- **Autor:** Sustentação Local TI SIGEP TRT14
+- **Situação:** Nova
+- **Prioridade:** Normal
+- **Atribuído para:** TRM - Aplicativo Móvel - Grupo
+- **Versão:**
+- **Tribunal solicitante:** TRT14
+- **Versão do módulo usado:** 2.8.2
+- **Tipo do incidente:** Erro em funcionalidade
+- **Ação executada:**
+- **Comportamento indesejado:**
+- **Há solução de contorno?:**
+- **Nome do Solicitante:**
+- **Telefone do solicitante:**
+- **Prazo para resposta:**
+- **Tag:**
+- **Tarefa é relativa ao eSocial?:**
+- **Informações necessárias:** Print da tela anexado à tarefa
+
+Prezados, bom dia!
+
+A servidora ANA CARLA CIPRIANO DOURADO DOS SANTOS não consegue gerar a carteira funcional, via aplicativo, pois aparece o erro em anexo.
+
+Procurei erros semelhantes no redmine e as soluções aplicadas não resolveram esse caso.",2024-08-16,2024-08-19,3,sem checklist,sem checklist,0
+6076ee3e1333ca13c49be9f9,JT SIGEP,64b58c9ba9edbfbe62d3a8bd,concluido,66c324f1ad5893e6e2f4a704,Exibir mensagens de erros no front originadas da api da carteira funcional,"- Erros não estão sendo mostrados a emsma forma qu são gerados no backend
+- Exibir os erros de campos obrigatórios para a geração da carteira
+- Tratar erro devido ao tamanho da foto do servidor não ser suportado pela api de carteira funcional",2024-08-19,2024-08-20,1,sem checklist,sem checklist,0
+66b2308d8280fee1577029f4,Testes Pyllo,66b230b36753770aaad3a6e5,concluido,66c5d1a178036d76dcd54a44,teste,sem descricao,2024-08-21,2024-08-21,1,sem checklist,sem checklist,0
+5606128cefdfd254db45d43d,Videoteca,sem lista,sem lista,sem cartao,sem cartao,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+5e7a6ff6e2ae027dcde1a309,Time Frequência,sem lista,sem lista,sem cartao,sem cartao,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+5fa96df1542ae388a4cfa5f0,SIPAG,sem lista,sem lista,sem cartao,sem cartao,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+601c6015a8399a3c1134d09a,Projetos Legado,sem lista,sem lista,sem cartao,sem cartao,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0
+65f1ed7c57267273780cdb60,Núcleo WEB,sem lista,sem lista,sem cartao,sem cartao,sem descricao,1900-01-01,1900-01-01,1,sem checklist,sem checklist,0

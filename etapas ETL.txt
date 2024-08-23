@@ -1,0 +1,19 @@
+extração de dados [E]
+1. acessar banco de dados
+2. criar engine
+3. selecionar as tabelas
+4. armazenar tabelas em dataframes
+5. copia de segurança
+
+transformação de dados [T]
+- explorar os dados dos dataframes
+1. renomear coluna "nome" das tabelas
+2. concatenar dataframes
+3. tratar valores nulos
+4. padronizar textos em series
+5. converter tipos de dados
+
+- configuração de figuras
+
+carregamento de dados [L]
+1. 
