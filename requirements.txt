@@ -5,3 +5,4 @@ unidecode
 plotly
 dash
 dash-bootstrap-components
+psycopg2
